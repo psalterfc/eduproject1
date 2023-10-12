@@ -1,0 +1,34 @@
+// Declarative //
+pipeline {
+    agent any
+
+    stages {
+        stage('Compiling job') {
+            steps {
+                echo 'Compiling..'
+            }
+        }
+        stage('Test job') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Package job') {
+            steps {
+                echo 'Packaging....'
+            }
+        }
+    }
+}
+// Script //
+node {
+    stage('Compiling job') {
+        echo 'Compiling....'
+    }
+    stage('Test job') {
+        echo 'Testing....'
+    }
+    stage('Package job') {
+        echo 'Packaging....'
+    }
+}
