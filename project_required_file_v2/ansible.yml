@@ -4,7 +4,7 @@
         - name: Build an image and push it to a private repo
           community.docker.docker_image:
               build:
-                  path: "/home/jenkins/Desktop"
+                  path: "/home/edureka/Desktop"
               name: docker.io/psalterfc/eduproject1
               #tag: test
               push: true
