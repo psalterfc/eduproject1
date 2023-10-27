@@ -8,7 +8,7 @@
               build:
                   path: "/home/edureka/Desktop"
               name: docker.io/psalterfc/eduproject1
-              tag: test
+              tag: latest
               push: true
               source: build
           register: out
