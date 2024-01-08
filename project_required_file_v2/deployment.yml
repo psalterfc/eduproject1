@@ -19,7 +19,7 @@ spec:
                 app: abc-tech-app
         spec:
             containers:
-                - image: psalterfc/industryapp
+                - image: psalterfc/industryapp:latest
                   name: app
 ---
 
